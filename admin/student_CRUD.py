@@ -76,7 +76,7 @@ def delete_students():
         return
     
 
-    confirm = input(f"Are you sure you want to delete this student name: {student[1]}, ID: {student[0]} (yes/no): ").strip().lower()
+    confirm = input(f"Are you sure you want to delete this student name: {student[0]} (yes/no): ").strip().lower()
     if confirm != "yes":
         print("Delete action cancelled!")
         return
